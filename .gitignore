@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+backend/uploads/perfiles/*
+!backend/uploads/perfiles/.gitkeep
+backend/backups/*
+!backend/backups/.gitkeep
+*.log
