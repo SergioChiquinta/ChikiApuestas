@@ -24,6 +24,7 @@ export default function Layout() {
         <nav>
           <NavLink to="/">Resumen</NavLink>
           <NavLink to="/partidos">Calendario</NavLink>
+          <NavLink to="/llaves">Llaves</NavLink>
           <NavLink to="/participacion">Participación</NavLink>
           <NavLink to="/ranking">Ranking</NavLink>
 

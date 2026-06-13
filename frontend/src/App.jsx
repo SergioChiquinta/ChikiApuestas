@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
 import MatchesPage from './pages/MatchesPage';
+import BracketPage from './pages/BracketPage';
 import PredictionsPage from './pages/PredictionsPage';
 import ParticipationPage from './pages/ParticipationPage';
 import RankingPage from './pages/RankingPage';
@@ -22,6 +23,7 @@ export default function App() {
           <Route element={<ProtectedRoute><Layout /></ProtectedRoute>}>
             <Route index element={<DashboardPage />} />
             <Route path="partidos" element={<MatchesPage />} />
+            <Route path="llaves" element={<BracketPage />} />
             <Route path="participacion" element={<ParticipationPage />} />
             <Route path="ranking" element={<RankingPage />} />
             <Route path="perfil" element={<ProfilePage />} />
