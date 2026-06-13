@@ -1,9 +1,59 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
+import { useToast } from '../context/ToastContext';
+import { getErrorMessage } from '../utils/errors';
+
 export default function LoginPage() {
-  const [username, setUsername] = useState('admin'); const [password, setPassword] = useState('sergio123');
-  const [error, setError] = useState(''); const { login } = useAuth(); const navigate = useNavigate();
-  const submit = async (e) => { e.preventDefault(); try { await login(username, password); navigate('/'); } catch (err) { setError(err.response?.data?.message || 'No se pudo iniciar sesión'); } };
-  return <div className="login-page"><form className="login-card" onSubmit={submit}><div className="brand big">Chiki<span>Pronósticos</span></div><p>Predicciones familiares del Mundial 2026</p><label>Usuario<input value={username} onChange={e=>setUsername(e.target.value)}/></label><label>Contraseña<input type="password" value={password} onChange={e=>setPassword(e.target.value)}/></label>{error&&<div className="alert">{error}</div>}<button>Ingresar</button></form></div>;
+  const [username, setUsername] = useState('admin');
+  const [password, setPassword] = useState('Sergio123*');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  const { login } = useAuth();
+  const { showToast } = useToast();
+  const navigate = useNavigate();
+
+  const submit = async (event) => {
+    event.preventDefault();
+    setLoading(true);
+    setError('');
+
+    try {
+      await login(username, password);
+      showToast('Bienvenido a las encuestas familiares.', 'success');
+      navigate('/');
+    } catch (requestError) {
+      const message = getErrorMessage(requestError, 'No se pudo iniciar sesión.');
+      setError(message);
+      showToast(message, 'error');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="login-page">
+      <form className="login-card" onSubmit={submit}>
+        <div className="brand big">Chiki<span>Pronósticos</span></div>
+        <p>Elige a quién apoyas en cada partido y compara la participación familiar.</p>
+
+        <label>
+          Usuario
+          <input value={username} onChange={(event) => setUsername(event.target.value)} required />
+        </label>
+        <label>
+          Contraseña
+          <input
+            type="password"
+            value={password}
+            onChange={(event) => setPassword(event.target.value)}
+            required
+          />
+        </label>
+
+        {error && <div className="alert">{error}</div>}
+        <button disabled={loading}>{loading ? 'Ingresando…' : 'Ingresar'}</button>
+      </form>
+    </div>
+  );
 }

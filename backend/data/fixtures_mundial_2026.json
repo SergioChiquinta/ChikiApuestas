@@ -12,7 +12,11 @@
     "goles_local": 2,
     "goles_visitante": 0,
     "estado": "finalizado",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "México",
+    "origen_visitante": "Sudáfrica",
+    "ganador_desempate": ""
   },
   {
     "id": 2,
@@ -27,7 +31,11 @@
     "goles_local": 2,
     "goles_visitante": 1,
     "estado": "finalizado",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "Corea del Sur",
+    "origen_visitante": "Chequia",
+    "ganador_desempate": ""
   },
   {
     "id": 3,
@@ -42,7 +50,11 @@
     "goles_local": 1,
     "goles_visitante": 1,
     "estado": "finalizado",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Toronto",
+    "origen_local": "Canadá",
+    "origen_visitante": "Bosnia y Herzegovina",
+    "ganador_desempate": ""
   },
   {
     "id": 4,
@@ -57,7 +69,11 @@
     "goles_local": 4,
     "goles_visitante": 1,
     "estado": "finalizado",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Estados Unidos",
+    "origen_visitante": "Paraguay",
+    "ganador_desempate": ""
   },
   {
     "id": 5,
@@ -72,7 +88,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Haití",
+    "origen_visitante": "Escocia",
+    "ganador_desempate": ""
   },
   {
     "id": 6,
@@ -87,7 +107,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Vancouver",
+    "origen_local": "Australia",
+    "origen_visitante": "Turquía",
+    "ganador_desempate": ""
   },
   {
     "id": 7,
@@ -102,7 +126,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Brasil",
+    "origen_visitante": "Marruecos",
+    "ganador_desempate": ""
   },
   {
     "id": 8,
@@ -117,7 +145,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Catar",
+    "origen_visitante": "Suiza",
+    "ganador_desempate": ""
   },
   {
     "id": 9,
@@ -132,7 +164,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Costa de Marfil",
+    "origen_visitante": "Ecuador",
+    "ganador_desempate": ""
   },
   {
     "id": 10,
@@ -147,7 +183,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Alemania",
+    "origen_visitante": "Curazao",
+    "ganador_desempate": ""
   },
   {
     "id": 11,
@@ -162,7 +202,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Países Bajos",
+    "origen_visitante": "Japón",
+    "ganador_desempate": ""
   },
   {
     "id": 12,
@@ -177,7 +221,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Monterrey",
+    "origen_local": "Suecia",
+    "origen_visitante": "Túnez",
+    "ganador_desempate": ""
   },
   {
     "id": 13,
@@ -192,7 +240,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Arabia Saudita",
+    "origen_visitante": "Uruguay",
+    "ganador_desempate": ""
   },
   {
     "id": 14,
@@ -207,7 +259,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "España",
+    "origen_visitante": "Cabo Verde",
+    "ganador_desempate": ""
   },
   {
     "id": 15,
@@ -222,7 +278,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Irán",
+    "origen_visitante": "Nueva Zelanda",
+    "ganador_desempate": ""
   },
   {
     "id": 16,
@@ -237,7 +297,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Bélgica",
+    "origen_visitante": "Egipto",
+    "ganador_desempate": ""
   },
   {
     "id": 17,
@@ -252,7 +316,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Francia",
+    "origen_visitante": "Senegal",
+    "ganador_desempate": ""
   },
   {
     "id": 18,
@@ -267,7 +335,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Irak",
+    "origen_visitante": "Noruega",
+    "ganador_desempate": ""
   },
   {
     "id": 19,
@@ -282,7 +354,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Argentina",
+    "origen_visitante": "Argelia",
+    "ganador_desempate": ""
   },
   {
     "id": 20,
@@ -297,7 +373,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Austria",
+    "origen_visitante": "Jordania",
+    "ganador_desempate": ""
   },
   {
     "id": 21,
@@ -312,7 +392,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Toronto",
+    "origen_local": "Ghana",
+    "origen_visitante": "Panamá",
+    "ganador_desempate": ""
   },
   {
     "id": 22,
@@ -327,7 +411,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Inglaterra",
+    "origen_visitante": "Croacia",
+    "ganador_desempate": ""
   },
   {
     "id": 23,
@@ -342,7 +430,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Portugal",
+    "origen_visitante": "República Democrática del Congo",
+    "ganador_desempate": ""
   },
   {
     "id": 24,
@@ -357,7 +449,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "Uzbekistán",
+    "origen_visitante": "Colombia",
+    "ganador_desempate": ""
   },
   {
     "id": 25,
@@ -372,7 +468,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Chequia",
+    "origen_visitante": "Sudáfrica",
+    "ganador_desempate": ""
   },
   {
     "id": 26,
@@ -387,7 +487,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Suiza",
+    "origen_visitante": "Bosnia y Herzegovina",
+    "ganador_desempate": ""
   },
   {
     "id": 27,
@@ -402,7 +506,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Vancouver",
+    "origen_local": "Canadá",
+    "origen_visitante": "Catar",
+    "ganador_desempate": ""
   },
   {
     "id": 28,
@@ -417,7 +525,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "México",
+    "origen_visitante": "Corea del Sur",
+    "ganador_desempate": ""
   },
   {
     "id": 29,
@@ -432,7 +544,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Brasil",
+    "origen_visitante": "Haití",
+    "ganador_desempate": ""
   },
   {
     "id": 30,
@@ -447,7 +563,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Escocia",
+    "origen_visitante": "Marruecos",
+    "ganador_desempate": ""
   },
   {
     "id": 31,
@@ -462,7 +582,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Turquía",
+    "origen_visitante": "Paraguay",
+    "ganador_desempate": ""
   },
   {
     "id": 32,
@@ -477,7 +601,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Estados Unidos",
+    "origen_visitante": "Australia",
+    "ganador_desempate": ""
   },
   {
     "id": 33,
@@ -492,7 +620,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Toronto",
+    "origen_local": "Alemania",
+    "origen_visitante": "Costa de Marfil",
+    "ganador_desempate": ""
   },
   {
     "id": 34,
@@ -507,7 +639,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Ecuador",
+    "origen_visitante": "Curazao",
+    "ganador_desempate": ""
   },
   {
     "id": 35,
@@ -522,7 +658,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Países Bajos",
+    "origen_visitante": "Suecia",
+    "ganador_desempate": ""
   },
   {
     "id": 36,
@@ -537,7 +677,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Monterrey",
+    "origen_local": "Túnez",
+    "origen_visitante": "Japón",
+    "ganador_desempate": ""
   },
   {
     "id": 37,
@@ -552,7 +696,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Uruguay",
+    "origen_visitante": "Cabo Verde",
+    "ganador_desempate": ""
   },
   {
     "id": 38,
@@ -567,7 +715,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "España",
+    "origen_visitante": "Arabia Saudita",
+    "ganador_desempate": ""
   },
   {
     "id": 39,
@@ -582,7 +734,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Bélgica",
+    "origen_visitante": "Irán",
+    "ganador_desempate": ""
   },
   {
     "id": 40,
@@ -597,7 +753,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Vancouver",
+    "origen_local": "Nueva Zelanda",
+    "origen_visitante": "Egipto",
+    "ganador_desempate": ""
   },
   {
     "id": 41,
@@ -612,7 +772,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Noruega",
+    "origen_visitante": "Senegal",
+    "ganador_desempate": ""
   },
   {
     "id": 42,
@@ -627,7 +791,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Francia",
+    "origen_visitante": "Irak",
+    "ganador_desempate": ""
   },
   {
     "id": 43,
@@ -642,7 +810,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Argentina",
+    "origen_visitante": "Austria",
+    "ganador_desempate": ""
   },
   {
     "id": 44,
@@ -657,7 +829,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Jordania",
+    "origen_visitante": "Argelia",
+    "ganador_desempate": ""
   },
   {
     "id": 45,
@@ -672,7 +848,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Inglaterra",
+    "origen_visitante": "Ghana",
+    "ganador_desempate": ""
   },
   {
     "id": 46,
@@ -687,7 +867,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Toronto",
+    "origen_local": "Panamá",
+    "origen_visitante": "Croacia",
+    "ganador_desempate": ""
   },
   {
     "id": 47,
@@ -702,7 +886,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Portugal",
+    "origen_visitante": "Uzbekistán",
+    "ganador_desempate": ""
   },
   {
     "id": 48,
@@ -717,7 +905,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "Colombia",
+    "origen_visitante": "República Democrática del Congo",
+    "ganador_desempate": ""
   },
   {
     "id": 49,
@@ -732,7 +924,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Escocia",
+    "origen_visitante": "Brasil",
+    "ganador_desempate": ""
   },
   {
     "id": 50,
@@ -747,7 +943,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Marruecos",
+    "origen_visitante": "Haití",
+    "ganador_desempate": ""
   },
   {
     "id": 51,
@@ -762,7 +962,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Vancouver",
+    "origen_local": "Suiza",
+    "origen_visitante": "Canadá",
+    "ganador_desempate": ""
   },
   {
     "id": 52,
@@ -777,7 +981,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Bosnia y Herzegovina",
+    "origen_visitante": "Catar",
+    "ganador_desempate": ""
   },
   {
     "id": 53,
@@ -792,7 +1000,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "Chequia",
+    "origen_visitante": "México",
+    "ganador_desempate": ""
   },
   {
     "id": 54,
@@ -807,7 +1019,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Monterrey",
+    "origen_local": "Sudáfrica",
+    "origen_visitante": "Corea del Sur",
+    "ganador_desempate": ""
   },
   {
     "id": 55,
@@ -822,7 +1038,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Curazao",
+    "origen_visitante": "Costa de Marfil",
+    "ganador_desempate": ""
   },
   {
     "id": 56,
@@ -837,7 +1057,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ecuador",
+    "origen_visitante": "Alemania",
+    "ganador_desempate": ""
   },
   {
     "id": 57,
@@ -852,7 +1076,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Japón",
+    "origen_visitante": "Suecia",
+    "ganador_desempate": ""
   },
   {
     "id": 58,
@@ -867,7 +1095,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Túnez",
+    "origen_visitante": "Países Bajos",
+    "ganador_desempate": ""
   },
   {
     "id": 59,
@@ -882,7 +1114,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Turquía",
+    "origen_visitante": "Estados Unidos",
+    "ganador_desempate": ""
   },
   {
     "id": 60,
@@ -897,7 +1133,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Paraguay",
+    "origen_visitante": "Australia",
+    "ganador_desempate": ""
   },
   {
     "id": 61,
@@ -912,7 +1152,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Noruega",
+    "origen_visitante": "Francia",
+    "ganador_desempate": ""
   },
   {
     "id": 62,
@@ -927,7 +1171,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Toronto",
+    "origen_local": "Senegal",
+    "origen_visitante": "Irak",
+    "ganador_desempate": ""
   },
   {
     "id": 63,
@@ -942,7 +1190,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Egipto",
+    "origen_visitante": "Irán",
+    "ganador_desempate": ""
   },
   {
     "id": 64,
@@ -957,7 +1209,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Vancouver",
+    "origen_local": "Nueva Zelanda",
+    "origen_visitante": "Bélgica",
+    "ganador_desempate": ""
   },
   {
     "id": 65,
@@ -972,7 +1228,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Cabo Verde",
+    "origen_visitante": "Arabia Saudita",
+    "ganador_desempate": ""
   },
   {
     "id": 66,
@@ -987,7 +1247,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "Uruguay",
+    "origen_visitante": "España",
+    "ganador_desempate": ""
   },
   {
     "id": 67,
@@ -1002,7 +1266,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Panamá",
+    "origen_visitante": "Inglaterra",
+    "ganador_desempate": ""
   },
   {
     "id": 68,
@@ -1017,7 +1285,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Croacia",
+    "origen_visitante": "Ghana",
+    "ganador_desempate": ""
   },
   {
     "id": 69,
@@ -1032,7 +1304,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Argelia",
+    "origen_visitante": "Austria",
+    "ganador_desempate": ""
   },
   {
     "id": 70,
@@ -1047,7 +1323,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Jordania",
+    "origen_visitante": "Argentina",
+    "ganador_desempate": ""
   },
   {
     "id": 71,
@@ -1062,7 +1342,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Colombia",
+    "origen_visitante": "Portugal",
+    "ganador_desempate": ""
   },
   {
     "id": 72,
@@ -1077,7 +1361,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "República Democrática del Congo",
+    "origen_visitante": "Uzbekistán",
+    "ganador_desempate": ""
   },
   {
     "id": 73,
@@ -1092,7 +1380,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Segundo del Grupo A",
+    "origen_visitante": "Segundo del Grupo B",
+    "ganador_desempate": ""
   },
   {
     "id": 74,
@@ -1107,7 +1399,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Grupo E",
+    "origen_visitante": "Mejor tercero A/B/C/D/F",
+    "ganador_desempate": ""
   },
   {
     "id": 75,
@@ -1122,7 +1418,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Monterrey",
+    "origen_local": "Ganador del Grupo F",
+    "origen_visitante": "Segundo del Grupo C",
+    "ganador_desempate": ""
   },
   {
     "id": 76,
@@ -1137,7 +1437,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Ganador del Grupo C",
+    "origen_visitante": "Segundo del Grupo F",
+    "ganador_desempate": ""
   },
   {
     "id": 77,
@@ -1152,7 +1456,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Grupo I",
+    "origen_visitante": "Mejor tercero C/D/F/G/H",
+    "ganador_desempate": ""
   },
   {
     "id": 78,
@@ -1167,7 +1475,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Segundo del Grupo E",
+    "origen_visitante": "Segundo del Grupo I",
+    "ganador_desempate": ""
   },
   {
     "id": 79,
@@ -1182,7 +1494,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "Ganador del Grupo A",
+    "origen_visitante": "Mejor tercero C/E/F/H/I",
+    "ganador_desempate": ""
   },
   {
     "id": 80,
@@ -1197,7 +1513,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Grupo L",
+    "origen_visitante": "Mejor tercero E/H/I/J/K",
+    "ganador_desempate": ""
   },
   {
     "id": 81,
@@ -1212,7 +1532,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Ganador del Grupo D",
+    "origen_visitante": "Mejor tercero B/E/F/I/J",
+    "ganador_desempate": ""
   },
   {
     "id": 82,
@@ -1227,7 +1551,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Ganador del Grupo G",
+    "origen_visitante": "Mejor tercero A/E/H/I/J",
+    "ganador_desempate": ""
   },
   {
     "id": 83,
@@ -1242,7 +1570,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Toronto",
+    "origen_local": "Segundo del Grupo K",
+    "origen_visitante": "Segundo del Grupo L",
+    "ganador_desempate": ""
   },
   {
     "id": 84,
@@ -1257,7 +1589,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Ganador del Grupo H",
+    "origen_visitante": "Segundo del Grupo J",
+    "ganador_desempate": ""
   },
   {
     "id": 85,
@@ -1272,7 +1608,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Vancouver",
+    "origen_local": "Ganador del Grupo B",
+    "origen_visitante": "Mejor tercero E/F/G/I/J",
+    "ganador_desempate": ""
   },
   {
     "id": 86,
@@ -1287,7 +1627,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Grupo J",
+    "origen_visitante": "Segundo del Grupo H",
+    "ganador_desempate": ""
   },
   {
     "id": 87,
@@ -1302,7 +1646,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Ganador del Grupo K",
+    "origen_visitante": "Mejor tercero D/E/I/J/L",
+    "ganador_desempate": ""
   },
   {
     "id": 88,
@@ -1317,7 +1665,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Segundo del Grupo D",
+    "origen_visitante": "Segundo del Grupo G",
+    "ganador_desempate": ""
   },
   {
     "id": 89,
@@ -1332,7 +1684,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Partido 74",
+    "origen_visitante": "Ganador del Partido 77",
+    "ganador_desempate": ""
   },
   {
     "id": 90,
@@ -1347,7 +1703,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Ganador del Partido 73",
+    "origen_visitante": "Ganador del Partido 75",
+    "ganador_desempate": ""
   },
   {
     "id": 91,
@@ -1362,7 +1722,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Partido 76",
+    "origen_visitante": "Ganador del Partido 78",
+    "ganador_desempate": ""
   },
   {
     "id": 92,
@@ -1377,7 +1741,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Mexico_City",
+    "origen_local": "Ganador del Partido 79",
+    "origen_visitante": "Ganador del Partido 80",
+    "ganador_desempate": ""
   },
   {
     "id": 93,
@@ -1392,7 +1760,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Ganador del Partido 83",
+    "origen_visitante": "Ganador del Partido 84",
+    "ganador_desempate": ""
   },
   {
     "id": 94,
@@ -1407,7 +1779,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Ganador del Partido 81",
+    "origen_visitante": "Ganador del Partido 82",
+    "ganador_desempate": ""
   },
   {
     "id": 95,
@@ -1422,7 +1798,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Partido 86",
+    "origen_visitante": "Ganador del Partido 88",
+    "ganador_desempate": ""
   },
   {
     "id": 96,
@@ -1437,7 +1817,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Vancouver",
+    "origen_local": "Ganador del Partido 85",
+    "origen_visitante": "Ganador del Partido 87",
+    "ganador_desempate": ""
   },
   {
     "id": 97,
@@ -1452,7 +1836,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Partido 89",
+    "origen_visitante": "Ganador del Partido 90",
+    "ganador_desempate": ""
   },
   {
     "id": 98,
@@ -1467,7 +1855,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Los_Angeles",
+    "origen_local": "Ganador del Partido 93",
+    "origen_visitante": "Ganador del Partido 94",
+    "ganador_desempate": ""
   },
   {
     "id": 99,
@@ -1482,7 +1874,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Partido 91",
+    "origen_visitante": "Ganador del Partido 92",
+    "ganador_desempate": ""
   },
   {
     "id": 100,
@@ -1497,7 +1893,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Ganador del Partido 95",
+    "origen_visitante": "Ganador del Partido 96",
+    "ganador_desempate": ""
   },
   {
     "id": 101,
@@ -1512,7 +1912,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/Chicago",
+    "origen_local": "Ganador del Partido 97",
+    "origen_visitante": "Ganador del Partido 98",
+    "ganador_desempate": ""
   },
   {
     "id": 102,
@@ -1527,7 +1931,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Partido 99",
+    "origen_visitante": "Ganador del Partido 100",
+    "ganador_desempate": ""
   },
   {
     "id": 103,
@@ -1542,7 +1950,11 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Perdedor del Partido 101",
+    "origen_visitante": "Perdedor del Partido 102",
+    "ganador_desempate": ""
   },
   {
     "id": 104,
@@ -1557,6 +1969,10 @@
     "goles_local": 0,
     "goles_visitante": 0,
     "estado": "pendiente",
-    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    "fuente": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "zona_horaria": "America/New_York",
+    "origen_local": "Ganador del Partido 101",
+    "origen_visitante": "Ganador del Partido 102",
+    "ganador_desempate": ""
   }
 ]

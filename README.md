@@ -1,26 +1,29 @@
-# ChikiPronósticos
+# ChikiMundial
 
-Quiniela familiar privada para el Mundial 2026 basada en **puntos virtuales**. No incluye dinero, saldos, pagos, premios, cuotas ni retiros.
+Aplicación familiar privada para seguir el Mundial 2026 mediante encuestas sociales. Cada participante puede elegir al equipo que apoya o marcar empate. La aplicación no incluye pagos, premios, cuotas ni clasificación por aciertos.
 
-## Funciones
+## Cambios incluidos
 
-- Inicio de sesión con JWT.
-- Roles `admin` y `participante`.
-- Calendario de 104 partidos del Mundial 2026.
-- Pronóstico de marcador mientras el partido está `pendiente`.
-- Puntuación: 3 puntos por marcador exacto, 1 por acertar ganador/empate y 0 en otro caso.
-- Ranking familiar.
-- Administración de usuarios y resultados.
-- Perfil con cambio de nombre, contraseña y foto.
-- Excel como almacenamiento para un grupo pequeño.
+- Elecciones simples: equipo local, empate o equipo visitante.
+- Calendario mostrado en hora de Lima, Perú.
+- Banderas y tarjetas mejoradas para cada partido.
+- Modal para consultar las elecciones de todos los participantes; quien aún no respondió aparece como `-- --`.
+- Notificaciones tipo toast para inicio de sesión, guardado, actualización y errores.
+- Bloqueo automático de la encuesta al llegar la hora de inicio del partido.
+- Bloqueo adicional por estado `cerrado` o `finalizado`.
+- Estadísticas de participación, sin puntos ni orden por aciertos.
+- Administración manual de equipos, resultados y estados.
+- Avance automático de ganadores y perdedores en las llaves eliminatorias.
+- Perfil con nombre, contraseña y foto.
+- Excel como almacenamiento para un grupo familiar pequeño.
 - Copia de seguridad antes de cada escritura del Excel.
 
 ## Credenciales iniciales
 
-- Admin: `admin` / `Admin123!`
-- Participante demo: `sergio` / `Familia123!`
+- Administrador: `admin` / `Admin123!`
+- Participante de prueba: `sergio` / `Familia123!`
 
-Cambia ambas contraseñas al iniciar.
+Cambia las contraseñas después del primer inicio de sesión.
 
 ## Instalación
 
@@ -29,6 +32,15 @@ Cambia ambas contraseñas al iniciar.
 ```bash
 cd backend
 cp .env.example .env
+npm install
+npm run dev
+```
+
+En Windows PowerShell:
+
+```powershell
+cd backend
+Copy-Item .env.example .env
 npm install
 npm run dev
 ```
@@ -46,73 +58,67 @@ npm install
 npm run dev
 ```
 
+En Windows PowerShell:
+
+```powershell
+cd frontend
+Copy-Item .env.example .env
+npm install
+npm run dev
+```
+
 Web: `http://localhost:5173`
 
-## Estructura
+## Flujo de las encuestas
 
-```text
-chiki-pronosticos/
-├─ frontend/
-│  ├─ src/
-│  │  ├─ api/
-│  │  ├─ auth/
-│  │  ├─ components/
-│  │  ├─ pages/
-│  │  └─ styles/
-│  └─ package.json
-├─ backend/
-│  ├─ data/
-│  │  ├─ chiki_pronosticos.xlsx
-│  │  └─ fixtures_mundial_2026.json
-│  ├─ uploads/perfiles/
-│  ├─ backups/
-│  ├─ src/
-│  │  ├─ controllers/
-│  │  ├─ middleware/
-│  │  ├─ routes/
-│  │  └─ services/
-│  ├─ .env.example
-│  └─ package.json
-└─ README.md
-```
+1. El participante abre **Mis elecciones**.
+2. Selecciona al equipo local, empate o equipo visitante.
+3. Guarda o modifica la elección mientras el partido siga disponible.
+4. Al llegar la hora de inicio, el frontend y el backend bloquean cambios.
+5. El botón **Ver elecciones familiares** muestra las respuestas de todos los participantes.
+6. La vista **Participación** solo indica cuántas encuestas completó cada persona.
+
+## Administración de resultados y llaves
+
+El administrador puede editar equipos, marcador y estado. En partidos eliminatorios que terminan empatados debe indicar qué equipo clasificó.
+
+Los campos `origen_local` y `origen_visitante` del Excel conservan referencias como `Ganador del Partido 89`. Al finalizar el partido anterior, el backend actualiza automáticamente el equipo de la siguiente ronda. También se actualizan los perdedores para el partido por el tercer puesto.
+
+La asignación inicial desde los grupos hacia la Ronda de 32 puede hacerse manualmente desde **Administrar partidos** cuando estén definidos los clasificados. Desde la Ronda de 32 en adelante, las referencias entre partidos se actualizan automáticamente.
 
 ## Hojas del Excel
 
-- `Usuarios`: credenciales hash, rol, puntos y ruta de foto.
-- `Partidos`: calendario, marcador y estado.
-- `Pronosticos`: selección de cada participante.
-- `Config`: reglas de puntuación.
-- `Auditoria`: reservada para registrar acciones administrativas.
+- `Usuarios`: credenciales, rol, foto y estado.
+- `Partidos`: calendario, marcador, estado, zona horaria y referencias de las llaves.
+- `Pronosticos`: conserva el nombre anterior por compatibilidad, pero almacena elecciones `local`, `empate` o `visitante`, sin puntajes.
+- `Config`: reglas de funcionamiento de las encuestas.
+- `Auditoria`: cambios administrativos de partidos.
+
+## Campos añadidos en `Partidos`
+
+- `zona_horaria`: zona IANA de la ciudad anfitriona.
+- `origen_local`: origen permanente del equipo local.
+- `origen_visitante`: origen permanente del equipo visitante.
+- `ganador_desempate`: `local` o `visitante` cuando un empate eliminatorio se resuelve por prórroga o penales.
+
+## Nota sobre fechas
+
+El Excel conserva la fecha y hora local de la sede. El backend convierte ese instante a `America/Lima` y devuelve `fecha_lima`, `hora_lima`, `inicio_iso` y `bloqueado`.
 
 ## Nota sobre Excel
 
-El archivo XLSX funciona para una familia o grupo pequeño. No debe abrirse en Excel mientras el servidor está escribiendo. Para uso público o muchos usuarios, migra a SQLite, PostgreSQL o MySQL.
+No mantengas abierto `backend/data/chiki_pronosticos.xlsx` en Microsoft Excel mientras la aplicación guarda cambios. Windows puede bloquear el archivo y la API devolverá un error 409.
 
-## Solución del error 401 al iniciar sesión
+## Restablecer cuentas iniciales
 
-Si las cuentas iniciales no aceptan sus contraseñas, ejecuta desde `backend`:
+Desde `backend`:
 
-```powershell
+```bash
 npm run reset:seed-passwords
 ```
 
 Después reinicia el backend y elimina el token anterior del navegador:
 
 ```js
-localStorage.removeItem('token')
+localStorage.removeItem('token');
 ```
-
-Las credenciales restauradas son `admin / Admin123!` y `sergio / Familia123!`.
-
-## Fotos de perfil
-
-Las imágenes se almacenan físicamente en `backend/uploads/perfiles/` y el Excel guarda únicamente la ruta pública. Formatos permitidos: JPG, PNG y WEBP, con un tamaño máximo de 2 MB.
-
-Para que las imágenes funcionen, inicia el backend desde su propia carpeta:
-
-```powershell
-cd backend
-npm run dev
-```
-
-No mantengas abierto `backend/data/chiki_pronosticos.xlsx` en Microsoft Excel mientras la aplicación guarda cambios. Si está bloqueado, la API devolverá un error 409 sin detenerse.

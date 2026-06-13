@@ -1,20 +1,14 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api, assetUrl } from '../api/client';
 import { useAuth } from '../auth/AuthContext';
-
-function errorMessage(error) {
-  if (error.code === 'ERR_NETWORK') {
-    return 'No se pudo conectar con el backend. Comprueba que npm run dev siga ejecutándose en backend.';
-  }
-  return error.response?.data?.message || 'No se pudieron guardar los cambios.';
-}
+import { useToast } from '../context/ToastContext';
+import { getErrorMessage } from '../utils/errors';
 
 export default function ProfilePage() {
   const { user, setUser } = useAuth();
+  const { showToast } = useToast();
   const [nombre, setNombre] = useState(user?.nombre || '');
   const [password, setPassword] = useState('');
-  const [message, setMessage] = useState('');
-  const [error, setError] = useState('');
   const [saving, setSaving] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [localPreview, setLocalPreview] = useState('');
@@ -31,8 +25,6 @@ export default function ProfilePage() {
 
   const save = async (event) => {
     event.preventDefault();
-    setMessage('');
-    setError('');
     setSaving(true);
 
     try {
@@ -42,9 +34,9 @@ export default function ProfilePage() {
       });
       setUser(data);
       setPassword('');
-      setMessage('Perfil actualizado correctamente.');
-    } catch (requestError) {
-      setError(errorMessage(requestError));
+      showToast('Perfil actualizado correctamente.', 'success');
+    } catch (error) {
+      showToast(getErrorMessage(error, 'No se pudo actualizar el perfil.'), 'error');
     } finally {
       setSaving(false);
     }
@@ -56,19 +48,17 @@ export default function ProfilePage() {
     if (!file) return;
 
     if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) {
-      setError('Selecciona una imagen JPG, PNG o WEBP.');
+      showToast('Selecciona una imagen JPG, PNG o WEBP.', 'error');
       return;
     }
     if (file.size > 2 * 1024 * 1024) {
-      setError('La imagen no puede superar los 2 MB.');
+      showToast('La imagen no puede superar los 2 MB.', 'error');
       return;
     }
 
     if (localPreview) URL.revokeObjectURL(localPreview);
     const preview = URL.createObjectURL(file);
     setLocalPreview(preview);
-    setMessage('');
-    setError('');
     setUploading(true);
 
     try {
@@ -77,10 +67,10 @@ export default function ProfilePage() {
       const { data } = await api.post('/users/me/photo', formData);
       setUser((currentUser) => ({ ...currentUser, ...data }));
       setLocalPreview('');
-      setMessage('Foto de perfil actualizada correctamente.');
-    } catch (requestError) {
+      showToast('Foto de perfil actualizada.', 'success');
+    } catch (error) {
       setLocalPreview('');
-      setError(errorMessage(requestError));
+      showToast(getErrorMessage(error, 'No se pudo actualizar la foto.'), 'error');
     } finally {
       setUploading(false);
     }
@@ -88,7 +78,10 @@ export default function ProfilePage() {
 
   return (
     <section>
-      <h1>Mi perfil</h1>
+      <div className="page-heading">
+        <p className="eyebrow">Datos personales</p>
+        <h1>Mi perfil</h1>
+      </div>
 
       <div className="profile-grid">
         <aside className="panel profile-photo-panel">
@@ -111,9 +104,6 @@ export default function ProfilePage() {
         </aside>
 
         <form className="panel form" onSubmit={save}>
-          {message && <p className="success-message">{message}</p>}
-          {error && <p className="alert">{error}</p>}
-
           <label>
             Nombre
             <input
@@ -140,9 +130,7 @@ export default function ProfilePage() {
             />
           </label>
 
-          <button disabled={saving}>
-            {saving ? 'Guardando…' : 'Guardar cambios'}
-          </button>
+          <button disabled={saving}>{saving ? 'Guardando…' : 'Guardar cambios'}</button>
         </form>
       </div>
     </section>
