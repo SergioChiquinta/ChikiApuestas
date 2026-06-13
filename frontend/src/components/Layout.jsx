@@ -25,10 +25,14 @@ export default function Layout() {
           <NavLink to="/">Resumen</NavLink>
           <NavLink to="/partidos">Calendario</NavLink>
           <NavLink to="/participacion">Participación</NavLink>
+          <NavLink to="/ranking">Ranking</NavLink>
+
           {user?.rol === 'participante' && (
             <NavLink to="/mis-elecciones">Mis elecciones</NavLink>
           )}
+
           <NavLink to="/perfil">Perfil</NavLink>
+
           {user?.rol === 'admin' && (
             <>
               <NavLink to="/admin/usuarios">Administrar usuarios</NavLink>
@@ -37,7 +41,9 @@ export default function Layout() {
           )}
         </nav>
 
-        <button className="ghost" type="button" onClick={closeSession}>Cerrar sesión</button>
+        <button className="ghost" type="button" onClick={closeSession}>
+          Cerrar sesión
+        </button>
       </aside>
 
       <main className="content">
@@ -48,12 +54,14 @@ export default function Layout() {
                 ? <img src={photo} alt="Foto de perfil" />
                 : <span>{user?.nombre?.charAt(0)?.toUpperCase() || '?'}</span>}
             </div>
+
             <div className="topbar-user-copy">
               <strong>{user?.nombre}</strong>
               <span className="role">{user?.rol}</span>
             </div>
           </div>
         </header>
+
         <Outlet />
       </main>
     </div>
