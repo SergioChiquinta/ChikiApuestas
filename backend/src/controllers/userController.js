@@ -1,72 +1,57 @@
-import fs from 'fs';
-import { fileURLToPath } from 'url';
-import { mutateWorkbook } from '../services/excelStore.js';
+import {
+  findUserById,
+  updateOwnProfile,
+  updateUserPhoto
+} from '../repositories/userRepository.js';
 import { hashPassword } from '../services/passwordService.js';
+import { uploadProfileImage } from '../services/cloudinaryService.js';
 
-const profilesDirectory = fileURLToPath(new URL('../../uploads/perfiles/', import.meta.url));
-
-function safeUser(user) {
-  const { password_hash, ...safe } = user;
-  return safe;
+function publicUser(user) {
+  const { password_hash, foto_perfil_public_id, ...safe } = user;
+  return {
+    ...safe,
+    activo: user.activo ? 'si' : 'no'
+  };
 }
 
 export async function updateProfile(req, res) {
-  const { nombre, password } = req.body;
-  const cleanName = String(nombre || '').trim();
+  const cleanName = String(req.body.nombre || '').trim();
+  const password = req.body.password ? String(req.body.password) : '';
 
   if (!cleanName) {
     return res.status(400).json({ message: 'El nombre es obligatorio.' });
   }
-  if (password && String(password).length < 8) {
-    return res.status(400).json({ message: 'La contraseña debe tener al menos 8 caracteres.' });
+  if (password && password.length < 8) {
+    return res.status(400).json({
+      message: 'La contraseña debe tener al menos 8 caracteres.'
+    });
   }
 
-  const updated = await mutateWorkbook(({ get, set }) => {
-    const users = get('Usuarios');
-    const index = users.findIndex((user) => String(user.id) === String(req.user.id));
-    if (index < 0) throw Object.assign(new Error('Usuario no encontrado'), { status: 404 });
+  const current = await findUserById(req.user.id);
+  if (!current) {
+    return res.status(404).json({ message: 'Usuario no encontrado.' });
+  }
 
-    users[index] = {
-      ...users[index],
-      nombre: cleanName,
-      password_hash: password ? hashPassword(String(password)) : users[index].password_hash
-    };
-    set('Usuarios', users);
-    return safeUser(users[index]);
+  const updated = await updateOwnProfile(req.user.id, {
+    nombre: cleanName,
+    passwordHash: password ? hashPassword(password) : current.password_hash
   });
 
-  res.json(updated);
+  res.json(publicUser(updated));
 }
 
 export async function updatePhoto(req, res) {
-  if (!req.file) return res.status(400).json({ message: 'Selecciona una imagen.' });
-
-  let previousPhoto = '';
-  try {
-    const relativePath = `/uploads/perfiles/${req.file.filename}`;
-
-    const updated = await mutateWorkbook(({ get, set }) => {
-      const users = get('Usuarios');
-      const index = users.findIndex((user) => String(user.id) === String(req.user.id));
-      if (index < 0) throw Object.assign(new Error('Usuario no encontrado'), { status: 404 });
-
-      previousPhoto = String(users[index].foto_perfil || '');
-      users[index] = { ...users[index], foto_perfil: relativePath };
-      set('Usuarios', users);
-      return safeUser(users[index]);
-    });
-
-    if (previousPhoto.startsWith('/uploads/perfiles/')) {
-      const previousFilename = previousPhoto.split('/').pop();
-      const previousAbsolutePath = fileURLToPath(new URL(`../../uploads/perfiles/${previousFilename}`, import.meta.url));
-      if (previousAbsolutePath.startsWith(profilesDirectory) && fs.existsSync(previousAbsolutePath)) {
-        fs.unlinkSync(previousAbsolutePath);
-      }
-    }
-
-    res.json(updated);
-  } catch (error) {
-    if (req.file?.path && fs.existsSync(req.file.path)) fs.unlinkSync(req.file.path);
-    throw error;
+  if (!req.file?.buffer) {
+    return res.status(400).json({ message: 'Selecciona una imagen.' });
   }
+
+  const current = await findUserById(req.user.id);
+  if (!current) {
+    return res.status(404).json({ message: 'Usuario no encontrado.' });
+  }
+
+  const uploaded = await uploadProfileImage(req.file.buffer, req.user.id);
+  const updated = await updateUserPhoto(req.user.id, uploaded);
+
+  res.json(publicUser(updated));
 }

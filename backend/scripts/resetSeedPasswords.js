@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { mutateWorkbook } from '../src/services/excelStore.js';
+import pool, { withTransaction } from '../src/config/database.js';
 import { hashPassword } from '../src/services/passwordService.js';
 
 const seedAccounts = [
@@ -7,28 +7,26 @@ const seedAccounts = [
   { username: 'sergio', password: 'Familia123!' }
 ];
 
-await mutateWorkbook(({ get, set }) => {
-  const users = get('Usuarios');
+try {
+  await withTransaction(async (client) => {
+    for (const account of seedAccounts) {
+      const { rowCount } = await client.query(
+        `UPDATE usuarios
+         SET password_hash = $2,
+             activo = TRUE,
+             actualizado_en = NOW()
+         WHERE LOWER(username) = LOWER($1)`,
+        [account.username, hashPassword(account.password)]
+      );
 
-  for (const account of seedAccounts) {
-    const index = users.findIndex(
-      (user) => String(user.username).toLowerCase() === account.username
-    );
-
-    if (index === -1) {
-      throw new Error(`No se encontró el usuario inicial: ${account.username}`);
+      if (!rowCount) {
+        throw new Error(`No se encontró el usuario inicial: ${account.username}`);
+      }
     }
+  });
 
-    users[index] = {
-      ...users[index],
-      password_hash: hashPassword(account.password),
-      activo: 'si'
-    };
-  }
-
-  set('Usuarios', users);
-});
-
-console.log('Contraseñas restablecidas correctamente:');
-console.log('  admin  / Admin123!');
-console.log('  sergio / Familia123!');
+  console.log('Contraseñas restablecidas correctamente.');
+  console.log('Cámbialas después de iniciar sesión.');
+} finally {
+  await pool.end();
+}
