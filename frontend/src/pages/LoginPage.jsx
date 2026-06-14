@@ -5,8 +5,8 @@ import { useToast } from '../context/ToastContext';
 import { getErrorMessage } from '../utils/errors';
 
 export default function LoginPage() {
-  const [username, setUsername] = useState('admin');
-  const [password, setPassword] = useState('Sergio123*');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const { login } = useAuth();
@@ -39,7 +39,12 @@ export default function LoginPage() {
 
         <label>
           Usuario
-          <input value={username} onChange={(event) => setUsername(event.target.value)} required />
+          <input 
+            value={username} 
+            onChange={(event) => setUsername(event.target.value)} 
+            placeholder="Usuario" 
+            required 
+          />
         </label>
         <label>
           Contraseña
@@ -47,6 +52,7 @@ export default function LoginPage() {
             type="password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}
+            placeholder="Contraseña"
             required
           />
         </label>
